@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "735918931498",
+    "project_id": "pitchingground",
+    "storage_bucket": "pitchingground.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735918931498:android:b8a0ac5ae5af6697d1cd53",
+        "android_client_info": {
+          "package_name": "com.code.pitchingground"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735918931498-2iulg6d01610jk3tp90u3d2r70a26dnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfE1poCscBbzAN9Td1ob1INKitcwZYaxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735918931498-2iulg6d01610jk3tp90u3d2r70a26dnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/whiteG"
+    android:layout_height="match_parent"
+    tools:context="com.example.pg.fragments.NotificationFragment">
+
+    <TextView
+        android:id="@+id/tvBg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appThemeP"
+        android:gravity="center_vertical"
+        android:text="\n\n"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tvChats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40sp"
+        android:layout_marginTop="15sp"
+        android:text="Notifications"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/shape"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/tvChats"
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/shapes" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shape"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="10sp"
+        android:layout_marginBottom="3sp" />
+
+</RelativeLayout>
